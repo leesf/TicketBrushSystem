@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/fluent-hc-4.2.5.jar"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/httpclient-cache-4.2.5.jar"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/httpmime-4.2.5.jar"/>
+	<classpathentry kind="lib" path="F:/01_Code/01_Eclipse/TicketBrushSystem/jar/jsoup-1.8.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
