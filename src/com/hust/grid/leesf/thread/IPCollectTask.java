@@ -147,9 +147,10 @@ public class IPCollectTask extends TimerTask {
 		// 解析有多少页
 		int pageNumber = Integer.parseInt(pageNumberEle.text());
 		// 拼接成其他页的访问地址
-		for (int index = 1; index <= pageNumber; index++) {			
-			baseUrl = baseUrl + index;
-			doc = getDocumentByUrl(baseUrl, host);
+		for (int index = 1; index <= pageNumber; index++) {
+		 	String url = baseUrl + index;
+			//baseUrl = baseUrl + index;
+			doc = getDocumentByUrl(url, host);
 			parseKuaiDaiLiIpLists(doc);
 			// 休眠一秒
 			fallSleep(1);
